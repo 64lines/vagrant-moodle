@@ -19,7 +19,7 @@ sudo su
 docker ps
 ```
 
-Get the container id of the mysql container and execute the following command:
+Get the mysql container id and execute the following command:
 
 ```bash
 docker inspect {containerId} | grep IPAddress
