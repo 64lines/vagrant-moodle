@@ -27,7 +27,7 @@ Get the `mysql` container id and execute the following command:
 docker inspect {containerId} | grep IPAddress
 ```
 
-# Getting into the Moodle container
+## Getting into the Moodle container
 
 If you need to access the moodle server to copy the moodle `config.php` installation you can execute the following commands:
 
